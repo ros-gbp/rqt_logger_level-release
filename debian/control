@@ -1,0 +1,13 @@
+Source: ros-lunar-rqt-logger-level
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: http://wiki.ros.org/rqt_logger_level
+Standards-Version: 3.9.2
+
+Package: ros-lunar-rqt-logger-level
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-lunar-python-qt-binding (>= 0.2.19), ros-lunar-rosnode, ros-lunar-rospy, ros-lunar-rosservice, ros-lunar-rqt-gui, ros-lunar-rqt-gui-py
+Description: rqt_logger_level provides a GUI plugin for configuring the logger level of ROS nodes.
+ rqt_logger_level takes over `wx`-based tool [[rxloggerlevel]].
