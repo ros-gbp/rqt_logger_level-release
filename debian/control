@@ -1,0 +1,13 @@
+Source: ros-melodic-rqt-logger-level
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/rqt_logger_level
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rqt-logger-level
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-melodic-python-qt-binding (>= 0.2.19), ros-melodic-rosnode, ros-melodic-rospy, ros-melodic-rosservice, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py
+Description: rqt_logger_level provides a GUI plugin for configuring the logger level of ROS nodes.
+ rqt_logger_level takes over `wx`-based tool [[rxloggerlevel]].
