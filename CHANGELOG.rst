@@ -2,6 +2,12 @@
 Changelog for package rqt_logger_level
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.13 (2025-04-26)
+-------------------
+* Handle setting logger level of non-present nodes (`#7 <https://github.com/ros-visualization/rqt_logger_level/issues/7>`_)
+* Bump cmake_minimum_required to avoid deprecation (`#13 <https://github.com/ros-visualization/rqt_logger_level/issues/13>`_)
+* Contributors: Arne Hitzmann, Simon Tegelid
+
 0.4.12 (2023-10-02)
 -------------------
 * added LICENSE
